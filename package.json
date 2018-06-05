@@ -1,0 +1,23 @@
+{
+  "name": "altbot",
+  "version": "69.69.69",
+  "description": "hi",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "discord-eco": "0.0.10",
+    "discord.js": "^11.3.2",
+    "fs": "0.0.1-security",
+    "ip-geoinfo": "^1.1.1",
+    "moment": "^2.22.2",
+    "querystring": "^0.2.0",
+    "require-text": "0.0.1",
+    "snekfetch": "^4.0.1",
+    "weather-js": "^2.0.0"
+  }
+}
