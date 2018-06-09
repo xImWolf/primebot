@@ -60,7 +60,7 @@ if(blarray.includes(message.author.id)) {
 case "eval":
 if(message.author.id != "429199866657243146") return message.channel.send(":octagonal_sign: **Only my developer can access this command.");
 try {
-  const code = args.join(" ");
+  const code = args.join(" ").slice(4);
   let evaled = eval(code);
 
   if (typeof evaled !== "string")
